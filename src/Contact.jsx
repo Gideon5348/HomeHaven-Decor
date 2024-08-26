@@ -17,7 +17,7 @@ export default function Contact() {
     };
     //http://localhost:3000:change it to backend link
     try {
-      const response = await fetch("https://home-haven-decor.vercel.app", {
+      const response = await fetch("http://localhost:3000/api/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
