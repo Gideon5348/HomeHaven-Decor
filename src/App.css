@@ -4,12 +4,12 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #222; /* Background of the track */
+  background: #000000; /* Background of the track */
   width: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: black; /* Color of the thumb */ /* Rounded corners */
+  background: rgb(175, 165, 165); /* Color of the thumb */ /* Rounded corners */
   max-height: 50px;
   margin: 1px;
   width: 4px;
